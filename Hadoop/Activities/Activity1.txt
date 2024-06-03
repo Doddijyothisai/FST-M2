@@ -8,11 +8,11 @@ $ vim csvFile.csv
 $ hdfs dfs -mkdir /user/jyothisai/textData
 
 # Copy the TXT file, txtFile.txt, into the textData folder in the HDFS
-$ hdfs dfs -put ./txtFile.txt /user/jyothisai/textData
+$ hdfs dfs -put ./txtFile.txt /user/Doddijyothisai/textData
 
 # Copy the CSV file, csvFile.csv, into the textData folder in the HDFS
 $ hdfs dfs -put ./csvFile.csv /user/jyothisai/textData
 
 # Use the stat command to get the file statistics
-$ hdfs dfs -stat "type:%F permissions:%a %u:%g size:%b name:%n" /user/jyothisai/textData/txtFile.txt
-$ hdfs dfs -stat "type:%F permissions:%a %u:%g size:%b name:%n" /user/jyothisai/textData/csvFile.csv
+$ hdfs dfs -stat "type:%F permissions:%a %u:%g size:%b name:%n" /user/Doddijyothisai/textData/txtFile.txt
+$ hdfs dfs -stat "type:%F permissions:%a %u:%g size:%b name:%n" /user/Doddijyothisai/textData/csvFile.csv
