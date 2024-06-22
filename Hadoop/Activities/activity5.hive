@@ -15,7 +15,7 @@ SELECT * from employee;
 SELECT COUNT(*) from employee;
 
 -- Exports to HDFS directory
-INSERT OVERWRITE DIRECTORY '/user/vishnu/HiveOutput'
+INSERT OVERWRITE DIRECTORY '/user/Doddijyothisai/HiveOutput'
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
 SELECT * FROM employee;
 
